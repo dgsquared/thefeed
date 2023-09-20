@@ -23,6 +23,10 @@ nav{
     left: 25px;
 }
 
+nav h5:hover {
+    background-color: yellow;
+}
+
 main{
     background-color: #FFE5FF;
     width: 650px;
