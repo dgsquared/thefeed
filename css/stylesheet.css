@@ -1,5 +1,9 @@
 body {
     background-color: #FFF4FF;
+    background-image: url("../img/feedtopdown.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     max-width: 1200px;
     margin: auto;
 }
@@ -56,8 +60,6 @@ footer{
 }
 
 #splashgif{
-    border: 5px #A66060 solid;
-    border-radius: 15%;
     width: 40%;
     margin: auto;
     text-align: center;
