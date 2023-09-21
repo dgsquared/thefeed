@@ -21,29 +21,37 @@ header {
 }
 
 nav{
-
+    font-family: 'Comic Neue', cursive;
     width: 200px;
     position: fixed;
     top: 300px;
     left: 25px;
-    background-color: aqua;
+    background-color: tan;
     text-align: center;
+    color:#A66060
+    
 }
 
 nav h5:hover {
-    background-color: yellow;
+    background-color: papayawhip;
+    color: red;
+    width:150px;
+}
+
+nav a {
+    color: inherit
 }
 
 main{
-    background-color: #FFE5FF;
     width: 650px;
     margin-left: 500px;
 }
 
 section{
-   
+    background-color: #FFF4FF;
+    background: rgba(211, 183, 196, 0.3);
     border: 5px #A66060 solid;
-    margin-top: 25px;
+    margin-top: 100px;
     text-align: center;
     padding: 15px
 }
@@ -58,7 +66,7 @@ footer{
     background-color: #A66060;
     width: 300px;
     position: fixed;
-    bottom: 50px;
+    bottom: 25px;
     left: 25px;
 }
 
@@ -67,6 +75,17 @@ footer{
     margin: auto;
     text-align: center;
     margin-top: 25%;
+}
+
+#feedpage{
+
+    background-image: url("../img/feedscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
 
 
