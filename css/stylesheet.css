@@ -45,11 +45,13 @@ nav a {
 main{
     width: 650px;
     margin-left: 500px;
+    color: brown;
+    font-size: larger;
 }
 
 section{
     background-color: #FFF4FF;
-    background: rgba(211, 183, 196, 0.3);
+    background: rgba(211, 183, 196, 0.5);
     border: 5px #A66060 solid;
     margin-top: 100px;
     text-align: center;
@@ -85,7 +87,7 @@ footer{
     background-attachment: fixed;
     max-width: 1200px;
     margin: auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: 'Comic Neue', cursive; 
 }
 
 
